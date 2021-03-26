@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Environments>
+    <Environment name="MAP_CI">
+        <EMSProperties ConnectionFactory="GenericConnectionFactory"
+                       ServerUrl="tcp://qesb201.asx.com.au:3222"
+                       Username="map"
+                       Password="map"
+                       BufferSize="10"
+                       TopicConnectionFactory="GenericConnectionFactory"
+                       ESBPrefix = "asx.stpft"
+                       ENVShortName = "CI"/>
+    </Environment>
+    <Environment name="NCORE_STP">
+        <EMSProperties ConnectionFactory="GenericConnectionFactory"
+                       ServerUrl="tcp://qesb201.asx.com.au:3222"
+                       Username="ncore"
+                       Password="ncore"
+                       BufferSize="10"
+                       TopicConnectionFactory="GenericConnectionFactory"
+                       ESBPrefix = "asx.stpft"
+                       ENVShortName = "CI"/>
+    </Environment>
+    <!--AUTO_DEV_CI is duplicate of one of above env to use for automation development work-->
+    <Environment name="AUTO_DEV_CI">
+        <EMSProperties ConnectionFactory="MAPXAQCF"
+                       ServerUrl="tcp://qesb201.asx.com.au:3222"
+                       Username="map"
+                       Password="map"
+                       BufferSize="10"
+                       TopicConnectionFactory="MAPXATCF"
+                       ESBPrefix = "asx.ci.map"
+                       ENVShortName = "CI"/>
+    </Environment>
+</Environments>

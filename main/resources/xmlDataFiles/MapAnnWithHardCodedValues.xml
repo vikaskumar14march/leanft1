@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CompanyAnnouncement>
+    <companyAnnouncementHeader>
+        <announcementHeader>20180219 ESB publishing - 1</announcementHeader>
+        <announcementPages>1</announcementPages>
+        <announcementPdfUUID>de8b1b77f9cd2b6347d119d818804e87</announcementPdfUUID>
+        <announcementSource>E</announcementSource>
+        <announcementType>U</announcementType>
+        <elodgementDate>2017-07-05T09:37:41.792+10:00</elodgementDate>
+        <elodgementId>1679876</elodgementId>
+        <issuerId>76</issuerId>
+        <senderEmail>pankaj.soni@asx.com.au</senderEmail>
+        <senderLogonId>cuevas_t</senderLogonId>
+        <senderName>soni_p</senderName>
+        <senderPhone>0292270129</senderPhone>
+        <senderType>L</senderType>
+    </companyAnnouncementHeader>
+</CompanyAnnouncement>
+

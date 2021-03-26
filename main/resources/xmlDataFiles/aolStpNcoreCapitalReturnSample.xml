@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompanyAnnouncement
+        xmlns="http://www.asx.com.au/Common/CompanyAnnouncement/1.0"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.asx.com.au/Common/CompanyAnnouncement/1.0 CompanyAnnouncementV1.3.xsd">
+    <CompanyAnnouncementHeader>
+        <action>A</action>
+        <headerText>Return of Capital - SYI</headerText>
+        <pdfPages>3</pdfPages>
+        <pdfUUID>ab97976893695d257a3cf369f4e46e93</pdfUUID>
+        <reportTypes>
+            <reportType>06005</reportType>
+        </reportTypes>
+        <source>E</source>
+        <type>S</type>
+        <xmlUUID>6e59a6f7254d87c86aed27c5671909fc</xmlUUID>
+        <sensitive>N</sensitive>
+        <senderType>C</senderType>
+        <elodgementDateTime>2019-06-19T12:08:08</elodgementDateTime>
+        <elodgementId>1750163</elodgementId>
+        <companyId>11037</companyId>
+        <issuerId>7247</issuerId>
+        <issuerCd>SYI</issuerCd>
+        <homeExchange>2</homeExchange>
+        <xrefIssuers />
+        <deletedXrefIssuers />
+        <senderEmail>webdevelopers@asx.com.au</senderEmail>
+        <senderLogonId>syi_user</senderLogonId>
+        <senderName>vikas kumar</senderName>
+        <senderPhone>12341234</senderPhone>
+        <announcementId>2A1135602</announcementId>
+        <releasedDateTime>2019-06-19T12:09:25</releasedDateTime>
+        <releasedBy>kumar_vi</releasedBy>
+        <listingsOfficer>Dummy</listingsOfficer>
+        <caseNotes />
+        <auditLog>
+            <auditEntry>
+                <entryTime>2019-06-19T12:09:23</entryTime>
+                <userLogonId>kumar_vi</userLogonId>
+                <announcementStatus>Classification</announcementStatus>
+                <comment>Case Note = null.</comment>
+            </auditEntry>
+        </auditLog>
+    </CompanyAnnouncementHeader>
+    <CompanyAnnouncementBody>
+        <companyAnnouncementHeader>
+            <announcementAction>A</announcementAction>
+            <announcementHeader>Return of Capital - SYI</announcementHeader>
+            <announcementPages>3</announcementPages>
+            <announcementPdfUUID>ab97976893695d257a3cf369f4e46e93</announcementPdfUUID>
+            <announcementReportTypes>
+                <announcementReportType>06005</announcementReportType>
+            </announcementReportTypes>
+            <announcementSource>E</announcementSource>
+            <announcementSubType>capitalReturn</announcementSubType>
+            <announcementType>S</announcementType>
+            <announcementXMLUrl>6e59a6f7254d87c86aed27c5671909fc</announcementXMLUrl>
+            <elodgementDate>2019-06-05T12:08:08.095+10:00</elodgementDate>
+            <elodgementId>1750163</elodgementId>
+            <releaseTime>2019-06-19T12:09:25</releaseTime>
+            <announcementId>2A1135602</announcementId>
+            <issuerId>7247</issuerId>
+            <primaryElodgementId>1750163</primaryElodgementId>
+            <senderEmail>webdevelopers@asx.com.au</senderEmail>
+            <senderLogonId>syi_user</senderLogonId>
+            <senderName>vikas kumar</senderName>
+            <senderPhone>12341234</senderPhone>
+            <senderType>C</senderType>
+            <warnings />
+        </companyAnnouncementHeader>
+        <companyAnnouncementBody>
+            <capitalReturn
+                    xmlns:dyo="http://dyomedea.com/simulation/" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:exf="http://www.exforms.org/exf/1-0" xmlns:f="http//www.orbeon.com/function" xmlns:fb="http://orbeon.org/oxf/xml/form-builder" xmlns:form-runner="java:org.orbeon.oxf.fr.FormRunner" xmlns:fr="http://orbeon.org/oxf/xml/form-runner" xmlns:frf="java:org.orbeon.oxf.fr.FormRunner" xmlns:ns0="http://www.tibco.com/schemas/AOLAdapter/AOLAdapter/CorporateActionFormData/V1.0.xsd" xmlns:odt="http://orbeon.org/oxf/xml/datatypes" xmlns:oxf="http://www.orbeon.com/oxf/processors" xmlns:p="http://www.orbeon.com/oxf/pipeline" xmlns:saxon="http://saxon.sf.net/" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sql="http://orbeon.org/oxf/xml/sql" xmlns:xbl="http://www.w3.org/ns/xbl" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xpl="java:org.orbeon.oxf.pipeline.api.FunctionLibrary" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xxbl="http://orbeon.org/oxf/xml/xbl" xmlns:xxf="http://orbeon.org/oxf/xml/xforms" xmlns:xxi="http://orbeon.org/oxf/xml/xinclude" fr:itemsetmap="optionPriceSecurityId=frb13f02d33b18e9af3bd838e5b2cd1dfa8f8a97c7" fr:data-format-version="4.0.0">
+                <section-86 fr:relevant="false">
+                    <control-87>SPDR MSCI AUSTRALIA SELECT HIGH DIVIDEND YIELD FUND         </control-87>
+                    <control-88>SYI - EXCHANGE TRADED FUND UNITS FULLY PAID             </control-88>
+                    <control-89>New announcement</control-89>
+                    <control-90>2019-06-20+10:00</control-90>
+                    <control-109>11</control-109>
+                    <control-110>2019-07-24</control-110>
+                    <control-91>2019-07-25</control-91>
+                    <control-92>2019-08-01</control-92>
+                    <control-94>autotest sample</control-94>
+                    <control-111/>
+                </section-86>
+                <section-96 fr:relevant="false">
+                    <control-97>SPDR MSCI AUSTRALIA SELECT HIGH DIVIDEND YIELD FUND         </control-97>
+                    <control-98>SYI - EXCHANGE TRADED FUND UNITS FULLY PAID             </control-98>
+                    <control-99>Update to previous announcement</control-99>
+                    <control-100>2019-06-20+10:00</control-100>
+                    <control-101/>
+                    <control-102>autotest sample</control-102>
+                    <control-112/>
+                </section-96>
+                <section-103 fr:relevant="false">
+                    <control-104>SPDR MSCI AUSTRALIA SELECT HIGH DIVIDEND YIELD FUND         </control-104>
+                    <control-105>SYI - EXCHANGE TRADED FUND UNITS FULLY PAID             </control-105>
+                    <control-106>Cancellation of previous announcement</control-106>
+                    <control-107>2019-06-20+10:00</control-107>
+                    <control-108/>
+                    <control-113/>
+                </section-103>
+                <section-95 fr:relevant="false"/>
+                <entityAnnouncementDetails fr:section-status="changed">
+                    <nameOfEntity>SPDR MSCI AUSTRALIA SELECT HIGH DIVIDEND YIELD FUND         </nameOfEntity>
+                    <regNoType>ABN</regNoType>
+                    <regNoNumber>23561912691</regNoNumber>
+                    <ASXIssuerCode>SYI</ASXIssuerCode>
+                    <announcementType>A</announcementType>
+                    <reasonForUpdate fr:relevant="false"/>
+                    <dateOfPreviousAnnouncementForUpdate fr:relevant="false"/>
+                    <reasonForCancellation fr:relevant="false"/>
+                    <dateOfPreviousAnnouncementForCancellation fr:relevant="false"/>
+                    <announcementDate>2019-06-20+10:00</announcementDate>
+                    <ASXSecurityId fr:itemsetid="fr206517be02391c28e6f679fbe0fb6173851a4793">496945</ASXSecurityId>
+                    <ASXSecurityCode_SEL>SYI</ASXSecurityCode_SEL>
+                    <ASXSecurityDescription>EXCHANGE TRADED FUND UNITS FULLY PAID             </ASXSecurityDescription>
+                    <concurrencyExistsOnIssuerLevel>N</concurrencyExistsOnIssuerLevel>
+                </entityAnnouncementDetails>
+                <header fr:relevant="false">
+                    <headerDisclaimer/>
+                    <draft>N</draft>
+                    <quotedOptionsIndicator/>
+                    <userLogonIdSSO>syi_user</userLogonIdSSO>
+                    <orbeonFormId/>
+                    <countryCode>AU</countryCode>
+                    <issuerId>7247</issuerId>
+                    <recordDateErrMsg/>
+                    <lodgementApprovingDateErrMsg/>
+                    <atoClassRulingInformationPrePop/>
+                    <firstDayNoticeDateErrMsg/>
+                    <currentBusinessDate/>
+                    <paymentDateErrMsg/>
+                    <saved_issueDate/>
+                    <recordDateMinusOne/>
+                    <userLogonId>syi_user</userLogonId>
+                    <saved_effectiveDate/>
+                    <optionsTradingDateErrMsg/>
+                    <saved_affectPriceIssuedOptionsIndicator>two</saved_affectPriceIssuedOptionsIndicator>
+                    <saved_recordDate/>
+                    <recordDatePastDateErrMsg/>
+                    <recordDatePlusOneSettlementDate>2019-07-26</recordDatePlusOneSettlementDate>
+                    <effectiveDateMinusOneSettlementDate/>
+                    <saved_firstDayNoticeDate/>
+                    <effectiveDateInfoMsg/>
+                    <effctDateErrorMsg/>
+                    <payDateErrMsg/>
+                    <paymentDatePastErrMsg/>
+                    <concurrencyExistsOnSecurityLevel>N</concurrencyExistsOnSecurityLevel>
+                </header>
+                <conditionsApprovalRequirementsAndDates fr:section-status="changed">
+                    <conditionalIndicator>N</conditionalIndicator>
+                    <conditionsLabel fr:relevant="false"/>
+                    <conditionItem-iteration>
+                        <condition/>
+                        <dateForDetermination/>
+                        <conditionComments/>
+                        <conditionMetIndicator/>
+                        <conditionDateStatus/>
+                    </conditionItem-iteration>
+                    <conditionItem>
+                        <condition/>
+                        <dateForDetermination/>
+                        <conditionDateStatus/>
+                        <conditionMetIndicator/>
+                        <conditionComments/>
+                    </conditionItem>
+                    <selectiveReductionIndicator>N</selectiveReductionIndicator>
+                    <lodgementApprovingTheReturnWithAsicDate fr:relevant="false"/>
+                    <lodgementApprovingTheReturnWithAsicDateStatus fr:relevant="false"/>
+                    <fourteenDaysAfterlodgementApprovingTheReturnWithAsicDate fr:relevant="false"/>
+                </conditionsApprovalRequirementsAndDates>
+                <timetableAndDetails fr:section-status="changed">
+                    <recordDate>2019-07-25</recordDate>
+                    <effctDtOfCshRtrnOfCptl>2019-07-22</effctDtOfCshRtrnOfCptl>
+                    <entityHasQuotedOptionsIndicator>N</entityHasQuotedOptionsIndicator>
+                    <lastDayTradingDate/>
+                    <effectiveDate>2019-07-24</effectiveDate>
+                    <timetableRecordDate>2019-07-25</timetableRecordDate>
+                    <firstDayNoticeDate/>
+                    <paymentDate>2019-08-01</paymentDate>
+                    <optionsTradingDate/>
+                    <firstSettlementDate/>
+                    <primaryCurrency itemset-empty="false">AUD</primaryCurrency>
+                    <capitalReturnAmountPerSecurityCurrency>11</capitalReturnAmountPerSecurityCurrency>
+                    <capitalReturnAmountPerSecurityAud fr:relevant="false">11</capitalReturnAmountPerSecurityAud>
+                    <capitalReturnAmountPerSecurityAudKnownDate fr:relevant="false"/>
+                    <capitalReturnAmountPerSecurityAudKnownDateStatus fr:relevant="false"/>
+                    <fxRateAud fr:relevant="false">1</fxRateAud>
+                    <fxRateCurrency fr:relevant="false">1</fxRateCurrency>
+                </timetableAndDetails>
+                <otherIssuedSecurities fr:section-status="changed">
+                    <affectPriceIssuedOptionsIndicator>N</affectPriceIssuedOptionsIndicator>
+                    <optionPricesLabel fr:relevant="false"/>
+                    <optionPrice>
+                        <optionPriceSecurityId fr:itemsetid="fraa6bd14ff6d114be13cbda7740d458d3f5412158"/>
+                        <optionPriceSecurityDescription/>
+                        <optionPriceQuotedStatus/>
+                        <optionPriceCurrency/>
+                        <optionPriceBeforeCapitalReturn/>
+                        <optionPriceAfterCapitalReturn/>
+                        <updateSecId/>
+                    </optionPrice>
+                </otherIssuedSecurities>
+                <furtherInformation fr:section-status="changed">
+                    <atoClassRulingIndicator>N</atoClassRulingIndicator>
+                    <atoClassRulingInformation fr:relevant="false"/>
+                    <sourceOfFunds>autotest sample</sourceOfFunds>
+                    <furtherInformationComment>autotest sample</furtherInformationComment>
+                    <addInfo>autotest sample</addInfo>
+                </furtherInformation>
+                <fr:metadata>
+                    <itemset id="fraa6bd14ff6d114be13cbda7740d458d3f5412158">
+                        <choices/>
+                    </itemset>
+                    <itemset id="fr206517be02391c28e6f679fbe0fb6173851a4793">
+                        <choices>
+                            <item>
+                                <label>SYI   </label>
+                                <value>496945</value>
+                            </item>
+                        </choices>
+                    </itemset>
+                </fr:metadata>
+            </capitalReturn>
+        </companyAnnouncementBody>
+    </CompanyAnnouncementBody>
+</CompanyAnnouncement>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BizMsg xmlns="urn:asx:xsd:xasx.802.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:asx:xsd:xasx.802.001.02 ASX_AU_CHS_comm_802_001_02_xasx_802_001_02.xsd">
+            <AppHdr xmlns:xsi_1="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:iso:std:iso:20022:tech:xsd:head.001.001.02" xmlns:n1="http://www.w3.org/2000/09/xmldsig#" xsi_1:schemaLocation="urn:iso:std:iso:20022:tech:xsd:head.001.001.02 ASX_AU_CHS_comm_801_001_02_head_001_001_02.xsd">
+                <Fr>
+                    <OrgId>
+                        <Id>
+                            <OrgId>
+                                <AnyBIC>XASXAU2S</AnyBIC>
+                            </OrgId>
+                        </Id>
+                    </OrgId>
+                </Fr>
+                <To>
+                    <OrgId>
+                        <Id>
+                            <OrgId>
+                                <AnyBIC>CITIAU3X</AnyBIC>
+                            </OrgId>
+                        </Id>
+                    </OrgId>
+                </To>
+                <BizMsgIdr>XASXAU2S|1tdMCp2wTsCU2kkHgTxb0g</BizMsgIdr>
+                <MsgDefIdr>seev.031.001.08</MsgDefIdr>
+                <BizSvc>evnt_706_001_05</BizSvc>
+                <CreDt>2020-07-25T08:35:03.224Z</CreDt>
+                <Sgntr>
+                    <n1:auto-generated_for_wildcard/>
+                </Sgntr>
+            </AppHdr>
+            <Document xmlns="urn:iso:std:iso:20022:tech:xsd:seev.031.001.08" xmlns:xsi_2="http://www.w3.org/2001/XMLSchema-instance" xsi_2:schemaLocation="urn:iso:std:iso:20022:tech:xsd:seev.031.001.08 ASX_AU_CHS_evnt_706_001_05_seev_031_001_08.xsd">
+                <CorpActnNtfctn>
+                    <NtfctnGnlInf>
+                        <NtfctnTp>REPL</NtfctnTp>
+                        <PrcgSts>
+                            <Cd>
+                                <EvtCmpltnsSts>COMP</EvtCmpltnsSts>
+                                <EvtConfSts>CONF</EvtConfSts>
+                            </Cd>
+                        </PrcgSts>
+                    </NtfctnGnlInf>
+                    <PrvsNtfctnId>
+                        <Id>004</Id>
+                    </PrvsNtfctnId>
+                    <CorpActnGnlInf>
+                        <CorpActnEvtId>261905</CorpActnEvtId>
+                        <OffclCorpActnEvtId>AU00000000261905</OffclCorpActnEvtId>
+                        <EvtPrcgTp>
+                            <Cd>REOR</Cd>
+                        </EvtPrcgTp>
+                        <EvtTp>
+                            <Cd>DECR</Cd>
+                        </EvtTp>
+                        <MndtryVlntryEvtTp>
+                            <Cd>MAND</Cd>
+                        </MndtryVlntryEvtTp>
+                        <UndrlygScty>
+                            <FinInstrmId>
+                                <ISIN>AU0000BENPF1</ISIN>
+                                <OthrId>
+                                    <Id>BENPF</Id>
+                                    <Tp>
+                                        <Cd>INFO</Cd>
+                                    </Tp>
+                                </OthrId>
+                                <Desc>CNV PREF 6-BBSW+4.00% PERP NON-CUM RED T-06-21</Desc>
+                            </FinInstrmId>
+                        </UndrlygScty>
+                    </CorpActnGnlInf>
+                    <AcctDtls>
+                        <ForAllAccts>
+                            <IdCd>GENR</IdCd>
+                        </ForAllAccts>
+                    </AcctDtls>
+                    <CorpActnDtls>
+                        <DtDtls>
+                            <AnncmntDt>
+                                <Dt>
+                                    <DtTm>2020-05-20T09:55:43+10:00</DtTm>
+                                </Dt>
+                            </AnncmntDt>
+                            <FctvDt>
+                                <Dt>
+                                    <Dt>2020-05-25</Dt>
+                                </Dt>
+                            </FctvDt>
+                            <RcrdDt>
+                                <Dt>
+                                    <Dt>2020-05-28</Dt>
+                                </Dt>
+                            </RcrdDt>
+                            <ExDvddDt>
+                                <Dt>
+                                    <Dt>2020-05-27</Dt>
+                                </Dt>
+                            </ExDvddDt>
+                        </DtDtls>
+                        <RstrctnInd>true</RstrctnInd>
+                    </CorpActnDtls>
+                    <CorpActnOptnDtls>
+                        <OptnNb>001</OptnNb>
+                        <OptnTp>
+                            <Cd>CASH</Cd>
+                        </OptnTp>
+                        <CcyOptn>AUD</CcyOptn>
+                        <DfltPrcgOrStgInstr>
+                            <DfltOptnInd>true</DfltOptnInd>
+                        </DfltPrcgOrStgInstr>
+                        <CshMvmntDtls>
+                            <CdtDbtInd>CRDT</CdtDbtInd>
+                            <DtDtls>
+                                <PmtDt>
+                                    <Dt>
+                                        <Dt>2020-06-04</Dt>
+                                    </Dt>
+                                </PmtDt>
+                            </DtDtls>
+                            <RateAndAmtDtls>
+                                <GrssDvddRate>
+                                    <Amt Ccy="AUD">1.6</Amt>
+                                </GrssDvddRate>
+                            </RateAndAmtDtls>
+                        </CshMvmntDtls>
+                    </CorpActnOptnDtls>
+                    <AddtlInf>
+                        <AddtlTxt>
+                            <AddtlInf>/UPDT/update comments</AddtlInf>
+                            <AddtlInf>/GNRL/5.3 Further information</AddtlInf>
+                        </AddtlTxt>
+                        <NrrtvVrsn>
+                            <AddtlInf>/SFDS/5.2 Source of funds</AddtlInf>
+                        </NrrtvVrsn>
+                        <InfConds>
+                            <UpdDesc>D</UpdDesc>
+                            <AddtlInf>
+/DTST/ACTL
+/CDTS/CMET
+/DNDT/2020-08-07
+/CDCM/Comments
+</AddtlInf>
+                        </InfConds>
+                        <InfToCmplyWth>
+                            <AddtlInf>/ATOR/false
+/ATOC/</AddtlInf>
+                        </InfToCmplyWth>
+                    </AddtlInf>
+                    <SplmtryData>
+                        <Envlp>
+                            <Sup:Document xmlns:xsi_3="http://www.w3.org/2001/XMLSchema-instance" xmlns:Sup="urn:asx:xsd:xasx.706.001.05" xsi_3:schemaLocation="urn:asx:xsd:xasx.706.001.05 ASX_AU_CHS_evnt_706_001_05_seev_031_001_08_sup.xsd">
+                                <Sup:evnt706SuplDataV01>
+                                    <Sup:ASXevnt706SD1>
+                                        <Sup:Issr>
+                                            <Sup:Nm>BENDIGO AND ADELAIDE BANK LIMITED</Sup:Nm>
+                                            <Sup:RegdNbTp>ACNX</Sup:RegdNbTp>
+                                            <Sup:RegnNb>068049178</Sup:RegnNb>
+                                            <Sup:IssrId>BEN</Sup:IssrId>
+                                        </Sup:Issr>
+                                        <Sup:DtsAndAmtsDtls/>
+                                        <Sup:DryAdjstmntDtls>
+                                            <Sup:AdjstmntTyp>CRDA</Sup:AdjstmntTyp>
+                                            <Sup:AdjstmntDt>2020-05-29</Sup:AdjstmntDt>
+                                            <Sup:AdjstmntSbjctScrty>
+                                                <Sup:ISIN>AU0000BENPF1</Sup:ISIN>
+                                                <Sup:OthrId>
+                                                    <Sup:Id>BENPF</Sup:Id>
+                                                    <Sup:Tp>
+                                                        <Sup:Cd>INFO</Sup:Cd>
+                                                    </Sup:Tp>
+                                                </Sup:OthrId>
+                                                <Sup:Desc>CNV PREF 6-BBSW+4.00% PERP NON-CUM RED T-06-21</Sup:Desc>
+                                            </Sup:AdjstmntSbjctScrty>
+                                        </Sup:DryAdjstmntDtls>
+                                        <Sup:EntlEvntDts>
+                                            <Sup:SelctvInd>false</Sup:SelctvInd>
+                                        </Sup:EntlEvntDts>
+                                    </Sup:ASXevnt706SD1>
+                                </Sup:evnt706SuplDataV01>
+                            </Sup:Document>
+                        </Envlp>
+                    </SplmtryData>
+                </CorpActnNtfctn>
+            </Document>
+        </BizMsg>
