@@ -1,0 +1,71 @@
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2020-07-25 18:34:51</RunStartTime>
+        <Timezone>AUS Eastern Standard Time</Timezone>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>LeanFT Report</ReportTitle>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>Run Results</Name>
+            <Description><![CDATA[ ]]></Description>
+            <StartTime>2020-07-25 18:34:51</StartTime>
+            <Result>Passed</Result>
+            <Links/>
+            <Duration>48</Duration>
+            <Extension>
+                <Any>
+                    <IconKey>Run</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                </Any>
+            </Extension>
+            <Environment>
+                <OSInfo><![CDATA[Microsoft Windows NT 6.2.9200.0]]></OSInfo>
+                <HostName>WS106218</HostName>
+                <NumberOfCores>4</NumberOfCores>
+                <CpuInfo/>
+                <TotalMemory>8097</TotalMemory>
+                <Locale><![CDATA[en-AU]]></Locale>
+                <Timezone>AUS Eastern Standard Time</Timezone>
+                <User><![CDATA[kumar_vi]]></User>
+            </Environment>
+            <TestedApplication/>
+            <ToolName>LeanFT</ToolName>
+            <ToolVersion><![CDATA[14.02]]></ToolVersion>
+        </Data>
+        <ReportNode type="Package">
+            <Data>
+                <Name>runner</Name>
+                <Description><![CDATA[Version: N/A]]></Description>
+                <StartTime>2020-07-25 18:34:58</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration>42</Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>Package</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                </Extension>
+            </Data>
+            <ReportNode type="Class">
+                <Data>
+                    <Name><![CDATA[runner.LeanFtTest]]></Name>
+                    <Description/>
+                    <StartTime>2020-07-25 18:34:58</StartTime>
+                    <Result>Passed</Result>
+                    <Links/>
+                    <Duration>42</Duration>
+                    <Extension>
+                        <Any>
+                            <IconKey>Class</IconKey>
+                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                        </Any>
+                    </Extension>
+                </Data>
+            </ReportNode>
+        </ReportNode>
+    </ReportNode>
+</Results>
